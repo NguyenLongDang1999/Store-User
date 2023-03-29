@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint": "eslint . -c .eslintrc.js --fix --ext .ts,.js,.vue,.tsx,.jsx"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "^0.3.1",
+        "@nuxt/image-edge": "1.0.0-27991759.1a5eea1",
+        "@nuxtjs/google-fonts": "^3.0.0",
+        "@nuxtjs/i18n": "8.0.0-beta.10",
+        "@nuxtjs/tailwindcss": "^6.6.4",
+        "@tailwindcss/line-clamp": "^0.4.2",
+        "@typescript-eslint/eslint-plugin": "^5.56.0",
+        "@typescript-eslint/parser": "^5.56.0",
+        "eslint": "^8.36.0",
+        "eslint-import-resolver-typescript": "^3.5.3",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-sonarjs": "^0.19.0",
+        "eslint-plugin-vue": "^9.10.0",
+        "nuxt": "^3.3.1",
+        "nuxt-icons": "^3.1.0",
+        "sass": "^1.60.0",
+        "typescript": "^5.0.2"
+    },
+    "dependencies": {
+        "@splidejs/vue-splide": "^0.6.12",
+        "tw-elements": "1.0.0-beta1"
+    }
+}
